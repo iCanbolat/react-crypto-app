@@ -1,0 +1,15 @@
+<div classname="row d-flex justify-content-center">
+          {top.map(coin =>{
+            return <div className="col-4 d-flex justify-content-center">
+            <div class="card">
+                <img src={coin.image} class="card-img-top" alt="..."></img>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                </div>})}
+           
+        </div>
+
+   const topThree = coins.sort((a,b) => b.price_change_percentage_24h - a.price_change_percentage_24h).slice(0, 3)
+ console.log(topThree)

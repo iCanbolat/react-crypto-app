@@ -1,0 +1,39 @@
+*{
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+}
+img{
+    width:3vh;
+}
+tr:hover .asd, tr:hover {
+    background-color: #cecad4;
+}
+.tilt{   
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+.card{
+    transform: translateZ(20px);
+    min-height: 30vh;
+}
+input{
+    border : 3px solid black ;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 13px 10px rgba(255,255,255,0.6);    
+    box-shadow: 1px 1px 13px 10px rgba(255,255,255,0.6);
+
+}
+input:focus, input:focus::-webkit-input-placeholder{
+    outline: none;
+    color: transparent;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    text-align: center;
+}
+ 
+
+
